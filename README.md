@@ -1,4 +1,4 @@
-# RiccoBlocks (릭코블록스)
+# RiccoBlocks (릭코 블록스)
 
 **블록처럼 쌓아 보는 월간 달력 + 할일 + 메모 앱 (Android)**
 
