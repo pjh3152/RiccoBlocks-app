@@ -18,7 +18,7 @@
 
 ## 다운로드
 
-👉 **[최신 버전 APK 받기 (Releases)](https://github.com/pjh3152/RiccoBlocks-release/releases/latest)**
+👉 **[최신 버전 APK 받기 (Releases)](https://github.com/pjh3152/RiccoBlocks-app/releases/latest)**
 
 `Assets` 항목의 `RiccoBlocks-x.y.z.apk` 를 받아 설치하면 됩니다.
 
@@ -83,8 +83,8 @@
 
 ## 개인정보처리방침
 
-[개인정보처리방침 보기](https://pjh3152.github.io/RiccoBlocks-release/privacy.html)
+[개인정보처리방침 보기](https://pjh3152.github.io/RiccoBlocks-app/privacy.html)
 
 ## 문의 / 버그 제보
 
-[Issues](https://github.com/pjh3152/RiccoBlocks-release/issues) 에 남겨 주세요.
+[Issues](https://github.com/pjh3152/RiccoBlocks-app/issues) 에 남겨 주세요.
