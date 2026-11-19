@@ -77,6 +77,10 @@
 ### v0.1.1 (2026-11-19)
 - 첫 공개 버전
 
+## 개인정보처리방침
+
+[개인정보처리방침 보기](https://pjh3152.github.io/RiccoBlocks-release/privacy.html)
+
 ## 문의 / 버그 제보
 
 [Issues](https://github.com/pjh3152/RiccoBlocks-release/issues) 에 남겨 주세요.

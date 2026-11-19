@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RiccoBlocks 개인정보처리방침</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1f2328; --muted:#59636e; --line:#d1d9e0; --accent:#4F9CF7; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0d1117; --fg:#e6edf3; --muted:#9198a1; --line:#3d444d; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 -apple-system, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:26px; margin:0 0 4px; }
+  h2 { font-size:19px; margin:32px 0 8px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  .muted { color:var(--muted); font-size:14px; }
+  a { color:var(--accent); }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+</style>
+</head>
+<body>
+<main>
+<h1>RiccoBlocks 개인정보처리방침</h1>
+<p class="muted">시행일: 2026년 11월 19일</p>
+
+<p>RiccoBlocks(이하 "앱")는 일정·할일·메모를 관리하는 Android 앱입니다. 앱은 회원가입이 없고, 광고나 사용 통계 수집 도구를 포함하지 않습니다. 개발자는 사용자의 개인정보를 수집하거나 서버에 저장하지 않습니다.</p>
+
+<h2>1. 앱이 다루는 정보와 저장 위치</h2>
+<table>
+  <tr><th>정보</th><th>저장 위치</th></tr>
+  <tr><td>일정, 할일, 메모, 기념일, 날짜 꾸미기, 설정</td><td>사용자 기기 안의 앱 저장 공간에만 저장됩니다.</td></tr>
+  <tr><td>사용자가 추가한 이미지(아이콘·스티커·배경)</td><td>사용자 기기 안의 앱 저장 공간에만 저장됩니다.</td></tr>
+</table>
+<p>이 정보는 개발자나 제3자에게 전송되지 않습니다.</p>
+
+<h2>2. 권한 사용</h2>
+<table>
+  <tr><th>권한</th><th>사용 목적</th></tr>
+  <tr><td>캘린더 읽기/쓰기</td><td>사용자가 "기기 캘린더 동기화"를 켰을 때만, 기기에 있는 캘린더(삼성 캘린더 등)와 일정을 주고받는 데 사용합니다. 기기 안에서만 처리됩니다.</td></tr>
+  <tr><td>알림, 정확한 알람, 부팅 완료 수신</td><td>일정·할일 알림을 정해진 시각에 보여 주고, 기기를 다시 켠 뒤 알림을 다시 등록하는 데 사용합니다.</td></tr>
+  <tr><td>인터넷</td><td>사용자가 Google Drive 백업을 직접 연결했을 때만 사용합니다.</td></tr>
+</table>
+
+<h2>3. Google Drive 백업 (선택 기능)</h2>
+<ul>
+  <li>사용자가 설정에서 Google 계정을 직접 연결한 경우에만 동작합니다.</li>
+  <li>앱이 요청하는 권한은 <code>https://www.googleapis.com/auth/drive.appdata</code> 하나뿐입니다. 이 권한으로는 사용자 Google Drive 안의 <b>이 앱 전용 숨김 폴더</b>에만 접근할 수 있으며, 사용자의 다른 Drive 파일·연락처·메일 등에는 접근하지 않습니다.</li>
+  <li>백업 파일은 사용자 본인의 Google Drive에 저장됩니다. 개발자는 이 파일을 볼 수 없습니다.</li>
+  <li>로그인 정보(토큰)는 앱이 따로 저장하지 않고, 기기의 Google Play 서비스가 관리합니다.</li>
+  <li>Google 사용자 데이터는 백업·복원 목적에만 사용하며, 제3자에게 제공·판매하거나 광고에 사용하지 않습니다.</li>
+</ul>
+
+<h2>4. 정보의 삭제</h2>
+<ul>
+  <li>앱을 삭제하면 기기에 저장된 앱 데이터가 함께 삭제됩니다.</li>
+  <li>Drive 백업은 앱의 백업 목록에서 삭제하거나, Google 계정 설정(Google Drive → 설정 → 앱 관리)에서 이 앱의 숨김 데이터를 삭제할 수 있습니다.</li>
+  <li>Google 계정 연결은 앱 설정의 "연결 해제" 또는 Google 계정의 "서드 파티 앱 및 서비스"에서 해제할 수 있습니다.</li>
+</ul>
+
+<h2>5. 아동의 개인정보</h2>
+<p>앱은 아동을 대상으로 개인정보를 수집하지 않습니다.</p>
+
+<h2>6. 변경 및 문의</h2>
+<p>이 방침이 바뀌면 이 페이지에 게시합니다. 문의는 <a href="https://github.com/pjh3152/RiccoBlocks-release/issues">GitHub Issues</a>에 남겨 주세요.</p>
+
+<h2>Summary (English)</h2>
+<p>RiccoBlocks stores all calendar, to-do and memo data only on the user's device. It has no accounts, ads or analytics, and the developer does not collect any personal data. The optional Google Drive backup uses only the <code>drive.appdata</code> scope to save backup files in a hidden app-specific folder in the user's own Google Drive; the developer cannot access these files, and Google user data is not shared, sold or used for advertising. Calendar permissions are used only on-device for the optional device-calendar sync.</p>
+</main>
+</body>
+</html>
