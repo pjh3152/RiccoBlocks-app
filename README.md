@@ -1,3 +1,5 @@
+<p align="center"><img src="icon.png" width="96" height="96" alt="보라·청록·코랄·노랑 일정 막대 아이콘"></p>
+
 # RiccoBlocks (릭코 블록스)
 
 **블록처럼 쌓아 보는 월간 달력 + 할일 + 메모 앱 (Android)**
