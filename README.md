@@ -5,7 +5,7 @@
 **블록처럼 쌓아 보는 월간 달력 + 할일 + 메모 앱 (Android)**
 
 광고 없음 · 회원가입 없음 · 인앱결제 없음.
-모든 데이터는 내 폰 안에만 저장되고, 기본 기능은 인터넷 없이 동작합니다.
+기본 데이터는 내 폰에 저장되고, 기본 기능은 인터넷 없이 동작합니다. Google 연결을 선택하면 본인 Drive를 통해 웹과 동기화할 수 있습니다.
 
 <p align="center">
   <img src="screenshots/01_calendar.png" width="260" alt="월간 달력">
@@ -22,7 +22,7 @@
 
 👉 **[최신 버전 APK 받기 (Releases)](https://github.com/pjh3152/RiccoBlocks-app/releases/latest)**
 
-`Assets` 항목의 `RiccoBlocks-0.1.11.apk` 를 받아 설치하면 됩니다.
+`Assets` 항목의 `RiccoBlocks-0.1.14.apk` 를 받아 설치하면 됩니다.
 
 - 지원 기기: Android 8.0 (Oreo) 이상
 - 처음 설치할 때 "출처를 알 수 없는 앱 설치"를 허용해야 할 수 있습니다.
@@ -77,7 +77,17 @@
 - 앱은 Drive 의 다른 파일에는 접근하지 않습니다 (`drive.appdata` 권한만 사용).
 - 같은 계정으로 연결하면 다른 폰에서도 백업을 골라 복원할 수 있습니다.
 
+## 웹에서 사용하기
+
+[RiccoBlocks 웹 열기](https://pjh3152.github.io/RiccoBlocks-web/) — 앱과 같은 Google 계정으로 연결하면 일정·할 일·메모가 동기화됩니다.
+
 ## 버전 기록
+
+### v0.1.14 (2026-11-23)
+- Google Drive를 통한 앱·웹 양방향 동기화 추가
+- 설정에 텍스트형 ‘지금 동기화’·‘연결 해제’, 마지막 동기화 상태 표시
+- 기존 ZIP 백업·복원과 기존 데이터 유지
+
 
 <!-- 버전 기록 규칙: 새 버전은 이 아래 맨 위에 추가한다. 최근 3개만 펼쳐 두고, 4번째부터는 <details markdown="1"><summary>이전 버전 보기 (N개)</summary> ... </details> 안으로 옮긴다 (N = 접힌 개수). -->
 
